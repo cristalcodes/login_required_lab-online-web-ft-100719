@@ -6,4 +6,16 @@ Rails.application.routes.draw do
   post '/logout', to: 'sessions#destroy'
   get '/secret', to: 'secrets#show'
 
+
+  # solution code:
+  # get 'secrets/new'
+  # 
+  # root 'application#hello'
+  # get '/login' => 'sessions#new'
+  # post '/login' => 'sessions#create'
+  # post '/logout' => 'sessions#destroy'
+  #
+  # get '/secret' => 'secrets#show'
+
+
 end
